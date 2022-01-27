@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Basic-Lists": {
+    "basic-lists": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Basic-Lists:build:production"
+              "browserTarget": "basic-lists:build:production"
             },
             "development": {
-              "browserTarget": "Basic-Lists:build:development"
+              "browserTarget": "basic-lists:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Basic-Lists:build"
+            "browserTarget": "basic-lists:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "Basic-Lists"
+  "defaultProject": "basic-lists"
 }
